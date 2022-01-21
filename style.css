@@ -3,3 +3,42 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+img {
+  align-content: center;
+}
+
+nav {
+  align-content: center;
+}
+/* attributes within nav */
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: gray;
+}
+
+figcaption {
+  font-size: small;
+  text-align: center;
+}
+
+/* ps with #featured-property or maybe > p*/
+section#featured-property p{
+  width: 800px;
+  text-align: center;
+  vertical space
+}
+
+div {
+  float: left;
+}
+
+/* divs in id details section */
+section#details div {
+  background: cornflowerblue;
+  text-align: center;
+  width: 25%;
+}
